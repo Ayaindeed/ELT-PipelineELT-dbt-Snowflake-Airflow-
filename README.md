@@ -89,7 +89,7 @@ Data Sources → Snowflake (Raw) → dbt (Transform) → Snowflake (Marts) → B
    - Connection ID: `id_you_want`
    - Connection Type: `Snowflake`
    - Account: `<account_locator>.<region>.<cloud_provider>` 
-   ### or use Account :   "account": "<account_locator>-<account_name>" // it didn't work for me! 
+   ## or use Account: `<account_locator>-<account_name>` // it didn't work for me! 
    - Username: `<your_username>`
    - Password: `<your_password>`
    - Warehouse: `<your_warehouse>`
