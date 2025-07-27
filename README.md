@@ -126,7 +126,7 @@ The project includes comprehensive data quality testing:
 
 ## Acknowledgments
 
-This project was built following the excellent tutorial by [Data with Marc](https://www.youtube.com/watch?v=OLXkGB7krGo&t=2071s). The tutorial provided a solid foundation for understanding the integration between dbt, Snowflake, and Airflow, which was then extended with custom Docker configurations and troubleshooting for production deployment.
+This project was built following the excellent tutorial by [jayzern](https://www.youtube.com/watch?v=OLXkGB7krGo&t=2071s). The tutorial provided a solid foundation for understanding the integration between dbt, Snowflake, and Airflow, which was then extended with custom Docker configurations and troubleshooting for production deployment.
 
 ## Deploy Your Project Locally
 ===========================
