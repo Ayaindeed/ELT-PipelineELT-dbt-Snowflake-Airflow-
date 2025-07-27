@@ -140,8 +140,3 @@ This command will spin up five Docker containers on your machine, each for a dif
 - DAG Processor: The Airflow component responsible for parsing DAGs
 - API Server: The Airflow component responsible for serving the Airflow UI and API
 - Triggerer: The Airflow component responsible for triggering deferred tasks
-
-When all five containers are ready the command will open the browser to the Airflow UI at http://localhost:8080/. You should also be able to access your Postgres Database at 'localhost:5432/postgres' with username 'postgres' and password 'postgres'.
-
-Note: If you already have either of the above ports allocated, you can either [stop your existing Docker containers or change the port](https://www.astronomer.io/docs/astro/cli/troubleshoot-locally#ports-are-not-available-for-my-local-airflow-webserver).
-
