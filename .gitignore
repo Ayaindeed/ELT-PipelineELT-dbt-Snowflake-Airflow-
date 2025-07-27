@@ -1,0 +1,56 @@
+# Git
+.git
+
+# Environment
+.env
+*.env
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Airflow
+airflow_settings.yaml
+__pycache__/
+*.pyc
+*.pyo
+*.log
+logs/
+airflow-webserver.pid
+webserver_config.py
+airflow.cfg
+
+# Astro CLI
+astro
+.venv
+
+# dbt
+target/
+dbt_packages/
+partial_parse.msgpack
+profiles.yml
+
+# Sensitive files
+*.key
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+airflow.db
+
+# Airflow
+logs/
+*.log
+__pycache__/
+*.pyc
+
+# dbt
+target/
+dbt_packages/
+*.env
+
+# Sensitive files
+.env
+*.key
