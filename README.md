@@ -145,3 +145,11 @@ When all five containers are ready the command will open the browser to the Airf
 
 Note: If you already have either of the above ports allocated, you can either [stop your existing Docker containers or change the port](https://www.astronomer.io/docs/astro/cli/troubleshoot-locally#ports-are-not-available-for-my-local-airflow-webserver).
 
+## Final Result
+
+When you run the Airflow DAG, the pipeline completes successfully and produces the following result:
+
+![Airflow dbt DAG Result](assets/dbt_dag.png)
+
+The image above shows the final state of the DAG execution, demonstrating the successful orchestration of dbt models in Airflow.
+
