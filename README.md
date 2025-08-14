@@ -89,7 +89,7 @@ Data Sources → Snowflake (Raw) → dbt (Transform) → Snowflake (Marts) → B
    - Connection ID: `id_you_want`
    - Connection Type: `Snowflake`
    - Account: `<account_locator>.<region>.<cloud_provider>` 
-   ### or use Account :   "account": "<account_locator>-<account_name>" // it didn't work for me! 
+  #  // or use Account: `<account_locator>-<account_name>` // it didn't work for me! 
    - Username: `<your_username>`
    - Password: `<your_password>`
    - Warehouse: `<your_warehouse>`
@@ -126,7 +126,7 @@ The project includes comprehensive data quality testing:
 
 ## Acknowledgments
 
-This project was built following the excellent tutorial by [Data with Marc](https://www.youtube.com/watch?v=OLXkGB7krGo&t=2071s). The tutorial provided a solid foundation for understanding the integration between dbt, Snowflake, and Airflow, which was then extended with custom Docker configurations and troubleshooting for production deployment.
+This project was built following the excellent tutorial by [jayzern](https://www.youtube.com/watch?v=OLXkGB7krGo&t=2071s). The tutorial provided a solid foundation for understanding the integration between dbt, Snowflake, and Airflow, which was then extended with custom Docker configurations and troubleshooting for production deployment.
 
 ## Deploy Your Project Locally
 ===========================
@@ -152,4 +152,3 @@ When you run the Airflow DAG, the pipeline completes successfully and produces t
 ![Airflow dbt DAG Result](assets/dbt_dag.png)
 
 The image above shows the final state of the DAG execution, demonstrating the successful orchestration of dbt models in Airflow.
-
